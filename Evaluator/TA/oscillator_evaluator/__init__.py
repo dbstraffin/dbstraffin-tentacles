@@ -1,3 +1,9 @@
-from .oscillator import UltimateOscillatorEvaluator
+from .oscillator import (
+    CommodityChannelIndexOscillatorEvaluator,
+    UltimateOscillatorEvaluator,
+)
 
-__all__ = ['UltimateOscillatorEvaluator']
+__all__ = [
+    'CommodityChannelIndexOscillatorEvaluator',
+    'UltimateOscillatorEvaluator',
+]

@@ -1,6 +1,9 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "origin_package": "dbstraffin-tentacles",
-  "tentacles": ["UltimateOscillatorEvaluator"],
+  "tentacles": [
+      "CommodityChannelIndexOscillatorEvaluator",
+      "UltimateOscillatorEvaluator"
+  ],
   "tentacles-requirements": []
 }

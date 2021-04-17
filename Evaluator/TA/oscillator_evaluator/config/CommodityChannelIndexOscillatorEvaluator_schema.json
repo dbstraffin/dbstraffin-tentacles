@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "title": "CommodityChannelIndexOscillatorEvaluator",
+  "properties": {
+    "period": {
+        "title": "Period length",
+        "type": "number",
+        "multipleOf": 1.0,
+        "minimum": 1
+    },
+    "long": {
+        "title": "Low threshold",
+        "type": "number"
+    },
+    "short": {
+        "title": "High threshold",
+        "type": "number"
+    }
+  }
+}
