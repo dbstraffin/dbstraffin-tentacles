@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "origin_package": "dbstraffin-tentacles",
+  "tentacles": ["UltimateOscillatorEvaluator"],
+  "tentacles-requirements": []
+}

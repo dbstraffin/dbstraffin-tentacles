@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "title": "UltimateOscillatorEvaluator",
+  "properties": {
+    "fast": {
+        "title": "fast period length",
+        "type": "number",
+        "multipleOf": 1.0,
+        "minimum": 1
+    },
+    "middle": {
+        "title": "middle period length",
+        "type": "number",
+        "multipleOf": 1.0,
+        "minimum": 1
+    },
+    "slow": {
+        "title": "slow period length",
+        "type": "number",
+        "multipleOf": 1.0,
+        "minimum": 1
+    },
+    "long": {
+        "title": "Low threshold: percent price difference from current ema from which evaluation is considered a buy signal.",
+        "type": "number"
+    },
+    "short": {
+        "title": "High threshold: percent price difference from current ema from which evaluation is considered a sell signal.",
+        "type": "number"
+    }
+  }
+}

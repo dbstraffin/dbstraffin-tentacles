@@ -1,0 +1,9 @@
+author: dbstraffin
+name: dbstraffin
+short-name: dbstraffin
+repository: dbstarffin-tentacles
+version: VERSION_PLACEHOLDER
+description: >
+  This package contains default evaluators, strategies, utilitary modules, interfaces and trading modes.
+tags:
+  - officials
